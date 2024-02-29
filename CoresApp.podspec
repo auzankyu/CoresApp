@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Auzan" => "" }
   spec.platform     = :ios, "11.0"
   # spec.source       = { :path => '.' }
-  spec.source       = { :git => "https://github.com/auzankyu/CoresApp.git", :branch => "main" }
+  spec.source       = { :git => "https://github.com/auzankyu/CoresApp.git", :tag => "1.0.0" }
   spec.source_files = "Core/**/*.swift"
   # spec.resources    = ["Language/**/*.xib", "Language/**/*.storyboard", "Language/**/*.ttf"]
   # spec.resource_bundles = {
